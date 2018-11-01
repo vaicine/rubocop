@@ -646,7 +646,7 @@ end
 
 Name | Default value | Configurable values
 --- | --- | ---
-Categories | `{"module_inclusion"=>["include", "prepend", "extend"]}` | 
+Categories | `{"module_inclusion"=>["include", "prepend", "extend"]}` |
 ExpectedOrder | `module_inclusion`, `constants`, `public_class_methods`, `initializer`, `public_methods`, `protected_methods`, `private_methods` | Array
 
 ### References
@@ -911,7 +911,7 @@ This cop checks the . position in multi-line method calls.
 ```ruby
 # bad
 something.
-  mehod
+  method
 
 # good
 something
@@ -926,7 +926,7 @@ something
 
 # good
 something.
-  mehod
+  method
 ```
 
 ### Configurable attributes
